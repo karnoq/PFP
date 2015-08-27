@@ -18,12 +18,20 @@ def draw_circle():
 
     angie.circle(100)
 
+def draw_triangle():
+    jennifer = turtle.Turtle()
+    jennifer.shape("classic")
+    jennifer.color("black")
 
+    for i in range(3):
+        jennifer.forward(100)
+        jennifer.left(120)
 
 window = turtle.Screen()
 window.bgcolor("red")
 
 draw_square()
 draw_circle()
+draw_triangle()
 
 window.exitonclick()
