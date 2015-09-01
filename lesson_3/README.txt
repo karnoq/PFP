@@ -1,0 +1,1 @@
+Directory and files for Lesson 3 of Udacity Course "Programming Foundations with Python"
